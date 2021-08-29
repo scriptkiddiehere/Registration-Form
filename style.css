@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.container{
+    margin: auto;
+    max-width: 80%; 
+    padding: 34px;
+}
+
+.container h1, p{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+input, textarea{ 
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 7px 0px;
+    padding: 7px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    color: black;
+    background: whitesmoke;
+    padding: 8px 12px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.submitMsg{ 
+    color: lightgreen;
+}
